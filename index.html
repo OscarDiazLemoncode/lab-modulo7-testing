@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app">
+      <main>
+        <section>
+          <h1 class="texto_avisos"></h1>
+          <h2>Puntuación</h2>
+          <h2 class="mostrar_puntuacion"></h2>
+          <h2 class="puntuacion_futuro"></h2>
+        </section>
+        <section>
+          <div class="flex">
+            <button type="button" class="pedir_carta">Pedir carta</button>
+            <button type="button" class="btn_plantarse">Me Planto</button>
+            <button type="button" class="btn_reload">Reiniciar partida</button>
+            <button type="button" class="btn_futuro">
+              ¿Quieres ver qué habría pasado?
+            </button>
+          </div>
+        </section>
+        <section>
+          <div class="baraja">
+            <div class="carta carta_abajo z10">
+              <img
+                src="https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/cartas/back.jpg"
+                alt=""
+              />
+            </div>
+            <div class="carta_levantada">
+              <span class="show_score"></span>
+              <img
+                src="https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/cartas/back.jpg"
+                alt="carta vista"
+              />
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <!-- <script type="module" src="/src/main.js"></script> -->
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
